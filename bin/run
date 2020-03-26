@@ -22,3 +22,4 @@ song2.save
 
 puts DB[:conn].execute("SELECT * FROM songs")
 puts Song.find_by_name("Sampaguita")
+puts Song.find_by_id(1)
