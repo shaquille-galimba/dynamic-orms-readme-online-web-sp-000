@@ -10,7 +10,7 @@ puts "song name: " + song.name
 puts "song album: " + song.album
 song.save
 
-song1 = Song.new(name: "Limasawa Street", album: "Limasawa street", artist: "Ben & ben")
+song1 = Song.new(name: "Limasawa Street", album: "Limasawa street")
 puts "song name: " + song1.name
 puts "song album: " + song1.album
 song1.save
