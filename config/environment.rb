@@ -9,7 +9,6 @@ sql = <<-SQL
   id INTEGER PRIMARY KEY,
   name TEXT,
   album TEXT,
-  artist TEXT
   )
 SQL
 
