@@ -12,7 +12,7 @@ song.save
 
 puts DB[:conn].execute("SELECT * FROM songs")
 
-song1 = Song.new(name: "Limasawa Street", album: "Limasawa street")
+song1 = Song.new(name: "Limasawa Street", album: "Limasawa street", artist: "Ben & ben")
 puts "song name: " + song1.name
 puts "song album: " + song1.album
 song1.save
